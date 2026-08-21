@@ -112,7 +112,7 @@ Pushes to `main` publish to the BrainAPI registry via GitHub Actions.
 
 ## License
 
-Business Source License 1.1. See [LICENSE](LICENSE).
+Apache License, Version 2.0. See [LICENSE](LICENSE).
 
 ## Related
 
