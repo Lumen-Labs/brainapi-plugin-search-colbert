@@ -1,0 +1,14 @@
+name: search-colbert
+version: "0.1.0"
+entry_point: main
+description: >
+  Late-interaction first-stage retriever (ColBERT / MaxSim) for POST /retrieve/search.
+  Own token-embedding index (plugin-local). Request via channels=["plugin:colbert"].
+  Absent/unknown plugin is 400. Does not run on /retrieve/context.
+author: BrainAPI
+brainapi_version: ">=2.17.0"
+tags:
+  - search
+  - colbert
+  - late-interaction
+priority: 62
